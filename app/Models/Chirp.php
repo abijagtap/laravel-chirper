@@ -14,6 +14,6 @@ class Chirp extends Model
 
     public function user(): BelongsTo
     {
-        return $thi->belongsTo(User::class);
+        return $this->belongsTo(User::class);
     }
 }
